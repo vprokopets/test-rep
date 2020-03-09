@@ -26,7 +26,7 @@ class TimeBased():
                 break
     
     def dummy(self):
-        print("dummy")
+        print("dummy.")
 
     def check_state(self):
         return self.decision
