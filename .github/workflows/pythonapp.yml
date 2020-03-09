@@ -32,5 +32,5 @@ jobs:
         pip install pytest
         pip install coverage
         coverage run --omit */dist-packages/* --branch -m pytest
-        coverage xml
+        coverage report
 
