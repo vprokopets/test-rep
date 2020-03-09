@@ -7,7 +7,7 @@ import threading
 class TimeBased():
 
     def __init__(self):
-        self.interval = 3
+        self.interval = 1
         self.decision = False
         self.logger = logging.getLogger(__name__)
         self.thread = threading.Thread(target=self.self_evaluation, args=())
